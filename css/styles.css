@@ -213,6 +213,7 @@ nav h1 a {
   bottom: 0;
   position: absolute;
   width: 50%;
+  max-width: 100%;
 }
 #restaurant-name {
   color: #f18200;
