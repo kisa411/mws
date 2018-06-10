@@ -57,10 +57,10 @@ nav {
   background-color: #252831;
   text-align:center;
 }
-nav h1 {
+nav h1, nav h2 {
   margin: auto;
 }
-nav h1 a {
+nav h1 a, nav h2 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
@@ -163,7 +163,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;

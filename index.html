@@ -17,15 +17,15 @@
 
   <main id="maincontent">
     <section id="map-container" role="img">
-      <div id="map"></div>
+      <aside id="map" tabindex="0"></aside>
     </section>
     <section role="search">
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="0">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="0">
           <option value="all">All Cuisines</option>
         </select>
       </div>
